@@ -53,7 +53,7 @@ from apollo.mm_utils import (
     tokenizer_mm_token,
     ApolloMMLoader
 )
-from apollo.conversations import conv_templates, SeparatorStyle
+from apollo.conversation import conv_templates, SeparatorStyle
 from apollo.constants import X_TOKEN, X_TOKEN_INDEX
 from huggingface_hub import snapshot_download
 
